@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="preload" as="image" href="logo.jpg">
+  <link rel="preload" as="image" href="moana-mojito-cup.png">
+  <link rel="preload" as="image" href="photo1.jpeg">
+  <link rel="preload" as="image" href="photo2.jpeg">
+  <link rel="preload" as="image" href="photo4.jpeg">
+  <link rel="preload" as="image" href="Qr_code_menu.jpeg">
+  
+  <link rel="stylesheet" href="app.css" data-precedence="default">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450&amp;family=Sora:wght@300;400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Caveat:wght@500;600;700&amp;display=swap" data-precedence="default">
+  <link rel="stylesheet" href="styles.css" data-precedence="default">
+  <link rel="stylesheet" href="ocean-shine.css" data-precedence="default">
+  
+  <title>Moānā Café — Sip the Ocean Breeze in Alexandria</title>
+  
+  <meta name="author" content="Lovable">
+  <meta name="twitter:site" content="@Lovable">
+  <meta name="description" content="Moānā Café, a coastal escape in Alexandria: cold brews, fresh mojitos, milkshakes and matcha served with an ocean breeze. 120+ drinks, daily 8am–4am.">
+  <meta property="og:title" content="Moānā Café — Sip the Ocean Breeze">
+  <meta property="og:description" content="A tropical café on the Mediterranean coast — cold brews, mojitos and matcha, poured with an ocean breeze.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+</head>
+<body>
+  <!--$-->
+  <div class="tide-gauge" aria-hidden="true">
+    <div class="tide-gauge__track">
+      <div class="tide-gauge__water" id="tideWater" style="height: 0%;"></div>
+    </div>
+    <span class="tide-gauge__shell">🐚</span>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-inner">
+      <a href="#top" class="brand">
+        <img src="logo.jpg" alt="Moānā Café" class="brand__mark">
+      </a>
+      <nav class="nav" id="mainNav">
+        <a href="#about">Story</a>
+        <a href="menu.html">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#vibes">Vibes</a>
+        <a href="social.html">Social</a>
+        <a href="location.html">Location</a>
+      </nav>
+      <div class="header-actions">
+        <button class="menu-burger" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero__bg" style="background-image:url('assets/storefront.jpg')"></div>
+    <div class="hero__scrim"></div>
+    <span class="deco deco--shell deco--tl"></span>
+    <span class="deco deco--star deco--tr"></span>
+    <span class="deco deco--sparkle deco--br"></span>
+    <div class="wrap hero__inner hero--split">
+      <div class="hero__cup">
+        <img src="moana-mojito-cup.png" alt="Signature Moānā Café blue mojito in a branded clear cup" width="316" height="556">
+      </div>
+      <div class="hero__copy">
+        <span class="hero__badge"><span></span>Crafted with Freshness</span>
+        <img src="logo.jpg" alt="Moānā Café logo" class="hero__logo">
+        <h1 class="hero__title">Sip the<br><span>Ocean&nbsp;Breeze</span></h1>
+        <p class="hero__tagline">A tropical escape in every cup — cold brews, fresh mojitos and matcha, poured a few steps from the shore. Alexandria's own tide pool of good coffee and good vibes.</p>
+        <div class="hero__cta">
+          <a href="#menu" class="btn btn--solid">View Menu →</a>
+          <a href="#find-us" class="btn btn--ghost">📍 Contact &amp; Location</a>
+        </div>
+        <div class="hero__proof">
+          <div class="hero__avatars">
+            <img src="photo1.jpeg" alt="Happy guest at Moānā Café">
+            <img src="photo2.jpeg" alt="Happy guest at Moānā Café">
+            <img src="photo4.jpeg" alt="Happy guest at Moānā Café">
+          </div>
+          <p>Loved by 1,000+ locals</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero__feature">
+      <img src="ice spanish latte.jpeg" alt="Iced Spanish Latte" loading="lazy">
+      <div class="hero__feature-body">
+        <span class="badge badge--coral">Featured</span>
+        <h4>Iced Spanish Latte</h4>
+        <p>Slow-poured, cold-steeped, poured long over ice with silk-steamed milk.</p>
+      </div>
+    </div>
+    <svg class="wave-divider" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,64 C240,110 480,10 720,48 C960,86 1200,20 1440,58 L1440,110 L0,110 Z" fill="var(--sand)"></path>
+    </svg>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about__grid">
+      <div class="about__media">
+        <img src="interior-mirror.jpg" alt="Moānā Café interior, arched mirror overlooking the terrace" loading="lazy">
+        <span class="about__media-tag">Alexandria, Egypt</span>
+      </div>
+      <div class="about__copy">
+        <p class="eyebrow eyebrow--dark">Our Story</p>
+        <h2>A little tide pool<br>in the middle of the city</h2>
+        <p>Moānā means ocean — and that's exactly the feeling we chase behind every counter. Woven pendant lights, driftwood arches and hand-painted surfboards set the scene; what fills your cup is the rest of the story. We source real fruit, real espresso, and real patience: fresh mint muddled to order, milk steamed to a whisper, matcha whisked the slow way.</p>
+        <p>No two afternoons here look the same — sunlight through the monstera leaves at noon, string lights and quiet conversation once the heat breaks. Pull up a rattan chair. You're on island time now.</p>
+        <div class="about__stats">
+          <div><strong>120+</strong><span>drinks on the menu</span></div>
+          <div><strong>100%</strong><span>fresh-cut fruit</span></div>
+          <div><strong>8am–4am</strong><span>daily</span></div>
+        </div>
+      </div>
+    </div>
+    <svg class="wave-divider wave-divider--flip" viewBox="0 0 1440 110" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,64 C240,110 480,10 720,48 C960,86 1200,20 1440,58 L1440,110 L0,110 Z" fill="var(--aqua-1)"></path>
+    </svg>
+  </section>
+
+  <section class="specials" id="specials">
+    <span class="deco deco--sparkle deco--tl"></span>
+    <span class="deco deco--star deco--tr"></span>
+    <div class="wrap">
+      <p class="eyebrow eyebrow--light">Summer Specials</p>
+      <h2 class="specials__title">Today's Tide</h2>
+      <div class="specials__grid">
+        <article class="special-card special-card--feature">
+          <img src="mojito-fresh.jpg" alt="Fresh mint mojito" loading="lazy">
+          <div class="special-card__body">
+            <span class="badge badge--coral">Drink of the Day</span>
+            <h3>Fresh Mojito</h3>
+            <p>Fresh mint, hand-pressed lime and soda, built cold and loud — the house classic.</p>
+            <div class="special-card__row">
+              <span class="price">89 EGP</span>
+              <a href="#menu" class="link-cta">Order at the counter →</a>
+            </div>
+          </div>
+        </article>
+        <article class="special-card">
+          <img src="mojito-passion.jpg" alt="Passion fruit mojito" loading="lazy">
+          <div class="special-card__body">
+            <span class="badge">100% Natural</span>
+            <h3>Passion Mojito</h3>
+            <p>Real passion fruit pulp over fresh lime and mint.</p>
+            <span class="price">98 EGP</span>
+          </div>
+        </article>
+        <article class="special-card">
+          <img src="mojito-blue.jpg" alt="Blue curacao mojito by the sea" loading="lazy">
+          <div class="special-card__body">
+            <span class="badge">Fan Favorite</span>
+            <h3>Blue Mojito</h3>
+            <p>Blue curaçao, lemon, mint and soda — bottled sunshine, ocean-colored.</p>
+            <span class="price">98 EGP</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-teaser" id="menu">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--dark">The Menu</p>
+      <h2>120+ Drinks, Six Tides to Explore</h2>
+      <p class="menu-section__lede">Coffee, tea, frappés, smoothies, mojitos and matcha — every single drink comes with its own tasting note and price. Prices in Egyptian pounds.</p>
+      
+      <div class="qr-card">
+        <img src="Qr_code_menu.jpeg" alt="QR code linking to the Moānā Café digital menu">
+        <div>
+          <h3>Scan for the Digital Menu</h3>
+          <p>Point your camera at the code to open the full Moānā Café menu on your phone — always up to date with today's prices.</p>
+        </div>
+      </div>
+      
+      <div class="drink-posters">
+        <figure class="drink-poster">
+          <img src="mango_moana.jpeg" alt="Fresh Mango at Moānā Café" loading="lazy">
+          <figcaption>Fresh Mango<b>114 EGP</b></figcaption>
+        </figure>
+        <figure class="drink-poster">
+          <img src="watermelon_moana.jpeg" alt="Fresh Watermelon at Moānā Café" loading="lazy">
+          <figcaption>Fresh Watermelon<b>104 EGP</b></figcaption>
+        </figure>
+        <figure class="drink-poster">
+          <img src="kiwi_moana.jpeg" alt="Fresh Kiwi at Moānā Café" loading="lazy">
+          <figcaption>Fresh Kiwi<b>106 EGP</b></figcaption>
+        </figure>
+        <figure class="drink-poster">
+          <img src="Lemon_mint_moana.jpeg" alt="Fresh Lemon Mint at Moānā Café" loading="lazy">
+          <figcaption>Fresh Lemon Mint<b>84 EGP</b></figcaption>
+        </figure>
+        <figure class="drink-poster">
+          <img src="guava_moana.jpeg" alt="Fresh Guava at Moānā Café" loading="lazy">
+          <figcaption>Fresh Guava<b>102 EGP</b></figcaption>
+        </figure>
+        <figure class="drink-poster">
+          <img src="guava_milk_moana.jpeg" alt="Guava Milk at Moānā Café" loading="lazy">
+          <figcaption>Guava Milk<b>114 EGP</b></figcaption>
+        </figure>
+        <figure class="drink-poster">
+          <img src="guava_mint_moana.jpeg" alt="Guava Mint at Moānā Café" loading="lazy">
+          <figcaption>Guava Mint<b>119 EGP</b></figcaption>
+        </figure>
+        <figure class="drink-poster">
+          <img src="banana_milk_moana.jpeg" alt="Banana Milk at Moānā Café" loading="lazy">
+          <figcaption>Banana Milk<b>114 EGP</b></figcaption>
+        </figure>
+      </div>
+      
+      <div class="menu-teaser__cards">
+        <article class="special-card">
+          <img src="ice spanish latte.jpeg" alt="Iced Spanish Latte" loading="lazy">
+          <div class="special-card__body">
+            <span class="badge badge--coral">Chef's Special</span>
+            <h3>Iced Spanish Latte</h3>
+            <p>Slow-poured, cold-steeped, poured long over ice with silk-steamed milk.</p>
+            <span class="price">136 EGP</span>
+          </div>
+        </article>
+        <article class="special-card">
+          <img src="pistachio-shake.jpg" alt="Pistachio milkshake" loading="lazy">
+          <div class="special-card__body">
+            <span class="badge">Best Seller</span>
+            <h3>Pistachio Milkshake</h3>
+            <p>Whipped to a cloud, swirled with pistachio cream, finished with crushed nuts.</p>
+            <span class="price">127 EGP</span>
+          </div>
+        </article>
+        <article class="special-card">
+          <img src="mango-shake.jpg" alt="Mango matcha topped with fresh mango" loading="lazy">
+          <div class="special-card__body">
+            <span class="badge">Best Seller</span>
+            <h3>Iced Mango Matcha</h3>
+            <p>Ceremonial-grade matcha layered over cold milk and fresh mango purée.</p>
+            <span class="price">142 EGP</span>
+          </div>
+        </article>
+      </div>
+      
+      <div class="menu-teaser__link">
+        <a href="menu.html" class="btn btn--navy">See the Full Menu &amp; Descriptions →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <span class="deco deco--star deco--tl"></span>
+    <span class="deco deco--shell deco--tr"></span>
+    <div class="wrap">
+      <p class="eyebrow eyebrow--dark">Around the Café</p>
+      <h2>A Look Inside</h2>
+    </div>
+    <div class="gallery__grid">
+      <figure class="g-item"><img src="storefront.jpg" alt="Moānā Café storefront" loading="lazy"></figure>
+      <figure class="g-item"><img src="photo1.jpeg" alt="Three iced drinks in the sun" loading="lazy"></figure>
+      <figure class="g-item"><img src="interior-mirror.jpg" alt="Arched mirror reflecting the terrace" loading="lazy"></figure>
+      <figure class="g-item g-item--tall"><img src="photo3.jpeg" alt="Surfboard wall art and driftwood arch" loading="lazy"></figure>
+      <figure class="g-item"><img src="photo2.jpeg" alt="Passion mojito" loading="lazy"></figure>
+      <figure class="g-item"><img src="photo4.jpeg" alt="Café corner with nautical decor" loading="lazy"></figure>
+      <figure class="g-item"><img src="photo5.jpeg" alt="Seating area at Moānā Café" loading="lazy"></figure>
+      <figure class="g-item"><img src="photo6.jpeg" alt="Drinks on the counter" loading="lazy"></figure>
+      <figure class="g-item"><img src="photo7.jpeg" alt="Terrace tables in the sun" loading="lazy"></figure>
+     
+    </div>
+  </section>
+
+  <section class="vibes" id="vibes">
+    <span class="deco deco--shell deco--tl"></span>
+    <span class="deco deco--sparkle deco--br"></span>
+    <div class="wrap">
+      <p class="eyebrow eyebrow--light">Why Moānā</p>
+      <h2 class="vibes__title">The Atmosphere</h2>
+      <div class="vibes__grid">
+        <div class="vibe-card">
+          <span class="vibe-card__icon">🍃</span>
+          <h3>Fresh, Always</h3>
+          <p>Fruit is cut daily, mint is muddled to order, and nothing sits in syrup bottles longer than it has to.</p>
+        </div>
+        <div class="vibe-card">
+          <span class="vibe-card__icon">🌇</span>
+          <h3>Golden Hour Seating</h3>
+          <p>Terrace tables catch the last light of the day — our busiest, quietest hour.</p>
+        </div>
+        <div class="vibe-card">
+          <span class="vibe-card__icon">🎧</span>
+          <h3>Chill Beats On Tap</h3>
+          <p>A slow-burning playlist that never gets in the way of conversation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="find-us">
+    <span class="deco deco--sparkle deco--tr"></span>
+    <span class="deco deco--shell deco--bl"></span>
+    <svg class="wave-divider" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,50 C240,90 480,10 720,40 C960,70 1200,15 1440,45 L1440,0 L0,0 Z" fill="var(--aqua-2)"></path>
+    </svg>
+    <div class="wrap footer-grid">
+      <div class="footer-col">
+        <img src="logo.jpg" alt="Moānā Café" class="footer-logo" loading="lazy">
+        <p>A tropical café on the Mediterranean coast — cold brews, mojitos, and matcha, poured with an ocean breeze.</p>
+        <div class="socials">
+          <a href="social.html" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+              <circle cx="12" cy="12" r="4"></circle>
+              <circle cx="17.2" cy="6.8" r="1"></circle>
+            </svg>
+          </a>
+          <a href="social.html" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M14 9h3V6h-3c-2 0-3.5 1.6-3.5 3.5V11H8v3h2.5v6h3v-6h2.7l.5-3h-3.2V9.6c0-.4.3-.6.6-.6z"></path>
+            </svg>
+          </a>
+          <a href="social.html" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M14 3c.3 1.9 1.6 3.4 3.5 3.7v2.4c-1.3 0-2.5-.4-3.5-1.1v5.6c0 2.8-2.3 5-5 5s-5-2.2-5-5 2.3-5 5-5c.3 0 .6 0 .9.1v2.5a2.6 2.6 0 1 0 1.8 2.5V3H14z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <p>Moānā Café<br>Alexandria, Egypt</p>
+        <p class="footer-hours">Daily · 7:00 AM – 1:00 AM</p>
+        <p><a href="location.html">Get directions →</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p><a href="social.html">Follow along →</a></p>
+      </div>
+      <div class="footer-col footer-col--map">
+        <h4>Find Us</h4>
+        <div class="map-embed">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3415.427226273433!2d29.772317974212147!3d31.125647966539994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f595002278c5df%3A0xcb04ba3022686b6b!2sMoana%20caffe!5e0!3m2!1sen!2seg!4v1787950228728!5m2!1sen!2seg" width="100%" height="180" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Moānā Café location"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>© 2026 Moānā Café. All rights reserved.</span>
+      <span>Built on the tide 🌊</span>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/20000000000" class="fab-whatsapp" target="_blank" rel="noopener" aria-label="Order on WhatsApp">
+    <svg viewBox="0 0 32 32" width="26" height="26" fill="currentColor">
+      <path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.8 1 3.9 1.5 6.3 1.5 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.6-1.5l-.4-.2-4.6 1.2 1.2-4.5-.3-.5C5.4 17.9 4.9 16.5 4.9 15c0-6.1 5-11 11.1-11s11.1 4.9 11.1 11-5 11-11.1 11zm6-8.2c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.1-.2.3-.8 1.1-1 1.3-.2.2-.4.3-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.7.1-.1.3-.4.5-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.2 3.3 5.3 4.6.7.3 1.3.5 1.8.7.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"></path>
+    </svg>
+  </a>
+  <!--/$-->
+</body>
+</html>
