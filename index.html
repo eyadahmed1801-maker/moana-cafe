@@ -63,7 +63,7 @@
   </header>
 
   <section class="hero" id="top">
-    <div class="hero__bg" style="background-image:url('storefront.jpg')"></div>
+    <div class="hero__bg" style="background-image:url('assets/storefront.jpg')"></div>
     <div class="hero__scrim"></div>
     <span class="deco deco--shell deco--tl"></span>
     <span class="deco deco--star deco--tr"></span>
@@ -359,5 +359,14 @@
     </svg>
   </a>
   <!--/$-->
+  <script>
+  const burger = document.querySelector('.menu-burger');
+  const nav = document.querySelector('.nav');
+
+  burger.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
+
 </body>
 </html>
