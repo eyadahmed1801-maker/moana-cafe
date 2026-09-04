@@ -108,6 +108,15 @@
     if (desc) document.getElementById('drinkDesc').innerText = desc;
     if (img) document.getElementById('drinkImg').src = img;
   });
+
+  
+  const burger = document.querySelector('.menu-burger');
+  const nav = document.querySelector('.nav');
+
+  burger.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+
 </script>
 </body>
 </html>
